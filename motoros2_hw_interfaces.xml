@@ -1,0 +1,32 @@
+<!-- Plugin for GPIO -->
+<library path="gpio_hardware_interface">
+  <class name="motoros2_hw_interfaces/GPIOSystem"
+         type="motoros2_hw_interfaces::GPIOSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control hardware interface for GPIO.
+    </description>
+  </class>
+</library>
+
+<!-- Plugin for MotoROS2 -->
+<library path="motoros2_hardware_interface">
+  <class name="motoros2_hw_interfaces/MotoROS2HardwareInterface"
+         type="motoros2_hw_interfaces::MotoROS2HardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control hardware interface for MotoROS2.
+    </description>
+  </class>
+</library>
+
+<!-- Plugin for FTS -->
+<library path="fts_hardware_interface">
+  <class name="motoros2_hw_interfaces/FTSHardwareInterface"
+         type="motoros2_hw_interfaces::FTSHardwareInterface"
+         base_class_type="hardware_interface::SensorInterface">
+    <description>
+      ros2_control hardware interface for FTS.
+    </description>
+  </class>
+</library>
