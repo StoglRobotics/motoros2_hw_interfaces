@@ -51,7 +51,6 @@ To use the hardware interfaces, you need to add the following to your `URDF` fil
     <plugin>motoros2_hw_interfaces/MotoROS2HardwareInterface</plugin>
     <param name="queue_traj_point_srv_name">/queue_traj_point</param>
     <param name="joint_states_topic_name">/hc20sdtp_joint_states</param>
-    </xacro:unless>
   </hardware>
 
   <joint name="joint_1_s">
